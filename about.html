@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kriegmetal - About</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		.container {
+  			position: relative;
+  			width: 50%;
+		}
+		.image {
+			display: block;
+			width: 100%;
+ 			height: auto;
+ 			margin-right: auto;
+ 			margin-left: auto;
+		}
+		.overlay {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			height: 100%;
+			width: 100%;
+			opacity: 0;
+			transition: .5s ease;
+			background-color: #3E78B2;
+		}
+		.container:hover .overlay {
+			opacity: 1;
+		}
+		.text {
+			color: white;
+			font-size: 20px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-webkit-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h1>KRIEGMETAL</h1>
+	<div class="topnav">
+ 		 <a class="menuBox" href="index.html">Home</a>
+ 		 <a class="menuBox" href="index.html#news">News</a>
+ 		 <a class="menuBox" href="index.html#moc">Contact</a>
+ 		 <a class="menuBox" href="about.html">About</a>
+ 		 <a class="menuBox" href="index.html#own">Owning a Tank</a>
+	</div>
+	<h2>About Us</h2>
+	<div class="menuBox">
+		<div class="container">
+			<img src="workshop.jpg" alt="Workshop" class="image">
+			<div class="overlay">
+			    <div class="text">Humble Origins...</div>
+  			</div>
+		</div>
+		<p class="centerText">The company started as a small workshop idea, originally built as a metalshop based on building tanks for the civilian use. The idea then has changed to build tanks for use in airsoft and paintball matches, promoting safety as the top policy in making our tanks. With this in mind, we built our shop fresh out of college, our dream never dying away.</p>
+		<div class="container">
+			<img src="manLine.jpg" alt="Manufacturing Line" class="image" class="imgCent">
+			<div class="overlay">
+			    <div class="text">...To an Industrial Might</div>
+  			</div>
+		</div>
+		<p class="centerText">Today, our dream lives on, and we are exanding rapidly. Our manufacturing lines are top of the line, all handcrafted by expert machinests. Our steel and engines are hand selected from trusted US dealers.</p>
+		<div class="container">
+			<img src="callUs.jpg" alt="Call Us" class="image">
+			<div class="overlay">
+			    <div class="text">Interested?</div>
+  			</div>
+		</div>
+		<p class="centerText">Interested in buying a produc or joining our team? Just want more information? <a href="index.html#moc">Contact us!</a></p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+body{
+	background-color: #3E78B2
+}
+p{
+	color: #07070A;
+}
+h1{
+	font-family: 'Libre Baskerville', serif;
+	color: #07070A;
+	text-align: center;
+	font-size: 50px;
+}
+h2{
+	color: #4A525A;
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+}
+h3{
+	color: #24272B;
+	font-family: 'Libre Baskerville', serif;
+}
+table{
+	color: #07070A;
+	background-color: #004BA8;
+	border: 1px solid black;
+}
+th{
+	border: 1px solid black;
+}
+td{
+	border: 1px solid black;
+}
+ul{
+	color: #07070A;
+}
+ol{
+	color: #07070A;
+}
+a{
+	align-content: center;
+}
+iframe{
+	align-content: center;
+}
+.menuBox{
+	border: 5px solid black;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 10px;
+	background-color: #4A525A;
+}
+#tankTitle{
+	text-align: center;
+}
+.returns{
+	border: 5px solid black;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 10px;
+	background-color: #4A525A;
+}
+.topnav{
+  background-color: #07070A;
+  padding: 5px;
+  margin: 5px;
+}
+.imgCent{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.centerText{
+	text-align: center;
+}
